@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<html>
+<head><title> Pizza Stop</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylerestaurants.css">
+</head>
+   <script src="restaurants.js">
+</script>
+<body>
+<!--input type="text" name="username" value="<?php  include 'login.php'; echo $c_id; ?>"-->
+<form action="cart.php" method="POST">
+<h2>PIZZA STOP</h2>
+<hr>
+<p><b><u>Veg-Italian: Margherita</b></u></p>
+<!--input type="text" id="username" value="<?php echo($_SESSION['username']);?>"readonly-->
+<img src="10.jfif" class="foodpic">
+<input type="submit" name="10" value="Add to cart">
+<br>
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button" id="increase" onclick="increaseValue()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>A hugely popular margherita, with a deliciously tangy single cheese topping.</p>
+
+<p>Rs.345</p><hr>
+
+<p><b><u>Veg-Italian: Farm house</b></u></p>
+<img src="11.jpg" class="foodpic">
+<input type="submit" name="11" value="Add to cart">
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue1()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number1">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue1()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes</p>
+
+<p>Rs.410</p>
+<hr>
+
+
+<p><b><u>Veg-Italian: Peppy Paneer</b></u></p>
+<img src="12.jpg" class="foodpic">
+<input type="submit" name="12" value="Add to cart">
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue2()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number2">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue2()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+
+<p>Rs.360</p><hr>
+
+<p><b><u>Veg-Italian: Mexican Green Wave</u></b></p>
+<img src="13.jpg" class="foodpic">
+
+<input type="submit" name="13" value="Add to cart">
+
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue3()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number3">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue3()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.</p>
+
+<p>Rs.450</p><hr>
+
+<p><b><u>Veg-Italian: Deluxe Veggie</u></b></p>
+<img src="14.jpg" class="foodpic">
+
+<input type="submit" name="14" value="Add to cart">
+
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue4()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number4">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue4()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>A BIG treat that goes easy on the spices, this one has got it all.Onions, the capsicum, those delectable mushrooms - with paneer and golden corn.</p>
+
+<p>Rs.360</p>
+
+<hr>
+
+<p><b><u>Veg-Italian: Peppy Barbecue Chicken</u></b></p>
+<img src="15.1.jpg" class="foodpic">
+
+<input type="submit" name="15" value="Add to cart">
+
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue5()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number5">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue5()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>Pepper Barbecue Chicken | Cheese</p>
+
+<p>Rs.400</p>
+
+<hr>
+
+<p><b><u>Veg-Italian: Chicken Sausage</u></b></p>
+<img src="16.jpg" class="foodpic">
+
+<input type="submit" name="16" value="Add to cart">
+
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue6()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number6">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue6()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>Chicken Sausage | Cheese</p>
+
+<p>Rs.430</p>
+
+<hr>
+
+<p><b><u>Veg-Italian: NonVeg Supreme</u></b></p>
+<img src="17.jpeg" class="foodpic">
+
+<input type="submit" name="17" value="Add to cart">
+
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue7()" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number7">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue7()" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers.</p>
+
+<p>Rs.530</p>
+
+<hr>
+</form>
+<form>
+<p><b><u>Veg-Italian:Chicken Dominator</u></b></p>
+<img src="18.1.jpg" class="foodpic">
+
+<input type="submit" name="Submit" value="Add to cart">
+<input type="hidden" name="f_id" id="18" value="18"></input>
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue8(); calc('price-18','number8','total-price18');" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number8">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue8(); calc('price-18','number8','total-price18');" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers </p>
+
+<input type="hidden" id="price-18" value="570">
+<input type="number" id="total-price18" value="570">
+
+<hr>
+</form>
+<form>
+<p><b><u>Veg-Italian:Chicken Fiesta</u></b></p>
+<img src="19.1.jfif" class="foodpic">
+
+<input type="submit" name="Submit" value="Add to cart" id="19.">
+<input type="hidden" name="f_id" id="19" value="19"></input>
+<div class="qtybtn">
+<button class="plus-btn" type="button" name="button"  id="increase" onclick="increaseValue9();calc('price-19','number9','total-price19');" value="Increase Value">
+        +
+      </button>
+      <input type="text" name="name" value="1" class="qty" id="number9">
+      <button class="minus-btn" type="button" name="button" id="decrease" onclick="decreaseValue9(); calc('price-19','number9','total-price19');" value="Decrease Value">-
+        
+      </button>
+      </div>
+<p>Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum.</p>
+<input type="hidden" id="price-19" value="600">
+<input type="number" id="total-price19" value="600">
+
+<hr>
+</div>
+</form>
+</body>
+
+
+</html>

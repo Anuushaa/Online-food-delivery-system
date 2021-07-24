@@ -1,0 +1,105 @@
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleorders.css">
+
+</head>
+<body>
+<script src="javascriptorders.js">
+</script>
+<div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Your orders
+  </div>
+ 
+  <!-- Product #1 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="akkirotti.svg" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>annapurna</span>
+      <span>rotti</span>
+      
+    </div>
+ 
+    <div class="quantity">
+      <button class="plus-btn" type="button" name="button" id="decrease" onclick="decreaseValue() calc()" value="Decrease Value">
+        +
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">-
+        
+      </button>
+    </div>
+ 
+    <div class="total-price">40</div>
+  </div>
+ 
+  <!-- Product #2 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="idli.jpg" alt=""/>
+    </div>
+ 
+    <div class="description">
+      <span>adigas</span>
+      <span>idli</span>
+      
+    </div>
+ 
+   <div class="quantity">
+      <button class="plus-btn" type="button" name="button">
+        +
+      </button>
+      <input type="text" name="name" value="1">
+      <button class="minus-btn" type="button" name="button">-
+        
+      </button>
+    </div>
+    <div class="total-price">30</div>
+  </div>
+ 
+  <!-- Product #3 -->
+  <div class="item">
+    <div class="buttons">
+      <span class="delete-btn"></span>
+      <span class="like-btn"></span>
+    </div>
+ 
+    <div class="image">
+      <img src="" alt="" />
+    </div>
+ 
+    <div class="description">
+      <span>dosa</span>
+      
+    </div>
+ 
+    <form>
+  <div class="value-button" id="decrease" onclick="decreaseValue() calc()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
+
+ 
+    <input type-"number" id="total-price3" value="20"/>
+  </div>
+</div>
+</body>
+</html>
